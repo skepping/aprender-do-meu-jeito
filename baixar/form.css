@@ -1,0 +1,21 @@
+.form-layout{width:min(960px,calc(100% - 36px));margin:clamp(1.5rem,5vw,4rem) auto;display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.3fr);gap:clamp(1.5rem,5vw,4.8rem);align-items:start}
+.form-aside{background:#e3f4ff;padding:clamp(1.35rem,3vw,2.5rem);border-radius:1.5rem;color:var(--ink)}
+.form-aside img{width:min(100%,195px);height:auto;display:block;margin:1.25rem auto 0;transform:rotate(-3deg);box-shadow:4px 5px 0 #b6d9ed}
+.form-layout h1{font-size:clamp(2rem,4.5vw,3.2rem);letter-spacing:-.05em;line-height:1.04;margin:0 0 .9rem}
+.form-layout h2,.form-layout summary{font-size:1.13rem;font-weight:700;line-height:1.4;letter-spacing:-.015em}
+.form-layout p,.form-layout small{color:var(--text)}
+.fields{display:grid;gap:.85rem;margin:1rem 0 1.4rem}
+.fields label{display:grid;gap:.26rem;font-weight:700}
+.fields input{background:white;border:1px solid #8394aa;border-radius:.5rem;padding:.7rem .8rem;color:var(--ink);font:inherit;min-width:0;width:100%}
+.form-layout input:focus-visible,.form-layout button:focus-visible,.form-layout summary:focus-visible{outline:3px solid #145bc5;outline-offset:3px}
+.form-layout details{border-top:1px solid var(--line);padding:1rem 0}
+.form-layout summary{cursor:pointer}.form-layout details p{margin:.6rem 0}
+.form-layout .choice{display:flex;gap:.65rem;align-items:flex-start;cursor:pointer;padding:.4rem 0;line-height:1.45}
+.choice input{flex:none;width:1.1rem;height:1.1rem;margin:.17rem 0 0;accent-color:#174f83}
+.form-layout fieldset{border:0;padding:0;margin:.65rem 0}
+.form-layout .download{font:inherit;font-weight:700;cursor:pointer;margin:.8rem 0}
+.form-layout .hint{font-size:.87rem;line-height:1.45;margin:.5rem 0}
+.form-layout .notice{border-left:4px solid #c83b24;padding:.7rem 1rem;background:#fff2e9;margin:.7rem 0}
+.form-layout .success{padding:1rem 0}
+@media(max-width:700px){.form-layout{grid-template-columns:1fr;gap:1.15rem}.form-aside{padding:1.1rem 1.2rem}.form-aside img{display:none}.form-layout h1{margin-bottom:.5rem}}
+@media(max-width:700px){.form-aside{background:transparent;padding:0}.form-aside p{display:none}#cadastro h2{margin:0}}
