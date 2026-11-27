@@ -1,6 +1,6 @@
 @font-face{font-family:Rubik;src:url(./rubik-regular.woff) format('woff');font-weight:400;font-display:swap}
 @font-face{font-family:Rubik;src:url(./rubik-bold.woff) format('woff');font-weight:700;font-display:swap}
-:root{--ink:#061443;--blue:#164d83;--gold:#febf26;--sky:#32adfc;--sky-light:#a8d9fc;--paper:#fffdf7;--line:#cddde9;--text:#2c4061;--width:1176px}
+:root{--ink:#191e39;--blue:#164d83;--gold:#fcbf24;--sky:#39aee4;--sky-light:#a8d9fc;--paper:#fffdf7;--line:#cddde9;--text:#2c4061;--width:1176px}
 *,*::before,*::after{box-sizing:border-box}
 html{scroll-padding-top:1rem}
 body{margin:0;background:var(--paper);font-family:Rubik,Arial,sans-serif;color:var(--ink);line-height:1.55}
